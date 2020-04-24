@@ -13,7 +13,9 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
     <script src="https://kit.fontawesome.com/eb928705cc.js"></script>
   </head>
   <body class="index is-preload">
@@ -26,39 +28,10 @@
         <nav id="nav">
           <ul>
             <li class="current">
-              <a href="https://chrisb-resume.netlify.com/index.html">Resume</a>
+              <a href="/resume.html">Resume</a>
             </li>
             <li class="submenu">
-              <a href="#">Projects</a>
-              <ul>
-                <li>
-                  <a href="#User-Interface" class="scrolly"
-                    >User Interface - Fixed</a
-                  >
-                </li>
-                <li>
-                  <a href="#Great-Idea" class="scrolly"
-                    >Great Idea - Responsive</a
-                  >
-                </li>
-                <li>
-                  <a href="#Youtube-U" class="scrolly"
-                    >Youtube U - Build Week</a
-                  >
-                </li>
-                <!-- <li><a href="no-sidebar.html">No Sidebar</a></li>
-                 <li><a href="contact.html">Contact</a></li>
-                 <li class="submenu">
-                  <a href="#">Submenu</a>
-                  <ul>
-                    <li><a href="#">Dolore Sed</a></li>
-                    <li><a href="#">Consequat</a></li>
-                    <li><a href="#">Lorem Magna</a></li>
-                    <li><a href="#">Sed Magna</a></li>
-                    <li><a href="#">Ipsum Nisl</a></li>
-                  </ul>
-                </li> -->
-              </ul>
+              <a href="#projects" class="scrolly">Projects</a>
             </li>
             <!-- <li><a href="#" class="button primary">Sign Up</a></li> -->
           </ul>
@@ -82,7 +55,7 @@
             <ul class="buttons stacked">
               <li>
                 <a
-                  href="https://chrisb-resume.netlify.com/index.html"
+                  href="/resume.html"
                   class="button fit scrolly"
                   >About Me</a
                 >
@@ -186,9 +159,7 @@
                   <h3>HTML, CSS, JS</h3>
                 </header>
                 <p>
-                  Sed tristique purus vitae volutpat ultrices. Aliquam eu elit
-                  eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper
-                  elit, et sagittis turpis. Integer ut fermentum.
+                  Sass/SCSS & LESS, Vanilla JS, jQuery, Responsive Design
                 </p>
               </section>
             </div>
@@ -199,9 +170,7 @@
                   <h3>React</h3>
                 </header>
                 <p>
-                  Sed tristique purus vitae volutpat ultrices. Aliquam eu elit
-                  eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper
-                  elit, et sagittis turpis. Integer ut fermentum.
+                  React.js, Redux, Context API & Hooks, React Router
                 </p>
               </section>
             </div>
@@ -212,9 +181,7 @@
                   <h3>Node.js</h3>
                 </header>
                 <p>
-                  Sed tristique purus vitae volutpat ultrices. Aliquam eu elit
-                  eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper
-                  elit, et sagittis turpis. Integer ut fermentum.
+                  Express, Knex, MongoDB, PostgreSQL
                 </p>
               </section>
             </div>
@@ -222,7 +189,7 @@
         </section>
 
         <!-- Three -->
-        <section class="wrapper style3 container special">
+        <section id="projects" class="wrapper style3 container special">
           <header class="major">
             <h2>Check out these <strong>Projects</strong></h2>
           </header>
@@ -231,98 +198,84 @@
             <div class="col-6 col-12-narrower">
               <section id="Great-Idea">
                 <a
-                  href="https://responsive-web-design1.netlify.com/"
-                  class="image featured"
-                  target="_blank"
-                  ><img src="images/sprint-project.png" alt=""
-                /></a>
-                <header>
-                  <h3>Great Idea Project - Responsive</h3>
-                </header>
-                <p>
-                  I learned how to create a responsive website using flexbox and
-                  media queries. During this project I became familiar with how
-                  to use version control with Git in order to save snapshots of
-                  our code as well as upload it to Github as a repository.
-                </p>
-              </section>
-            </div>
-            <div class="col-6 col-12-narrower">
-              <section id="User-Interface">
-                <a
-                  href="https://ui-sprint-project.netlify.com/"
+                  href="https://www.futurehopeschool.com/"
                   class="image featured"
                   target="_blank"
                   ><img
-                    src="images/responsive-project.png"
-                    alt="Sprint Project screenshot"
+                    src="images/future-hope.png"
+                    alt="Future Hope - School in the Sky"
                 /></a>
                 <header>
-                  <h3>User Interface - Sprint Project</h3>
+                  <h3>Future Hope - School in the Sky</h3>
                 </header>
                 <p>
-                  This is a timed three hour project at Lambda School that
-                  taught the fundamentals of The Box Model in HTML as well as
-                  how to manipulate it with CSS to achieve a clean layout. I
-                  also learned how to write Semantic HTML to help browsers and
-                  search engines understand the parts of the page that are
-                  important.
+                  Training Portal built to help provide virtual mentors to
+                  students in Ghana and Nigeria.
+                  <ul style="text-align: left;">
+                    <li>Managed tasks associated with developing, debugging, and
+                    designing the application according to stakeholder
+                    specifications</li>
+                    <li>
+                      Built with React, Redux & Google Firebase. Tested with Cypress.io
+                    </li>
+                  </ul>
                 </p>
               </section>
             </div>
-          </div>
-          <div class="row">
             <div class="col-6 col-12-narrower">
               <section id="Youtube-U">
-                <a
-                  href="https://youtube-u.netlify.com/"
-                  class="image featured"
-                  target="_blank"
-                  ><img
-                    src="images/buildweek1-project.png"
-                    alt="Youtube U screenshot"
-                /></a>
+                <a href="https://sneakers.now.sh/sneakers" class="image featured" target="_blank"><img
+                    src="images/sneakers.png" alt="Sneakers E-Commerce Website" /></a>
                 <header>
-                  <h3>Youtube U - Build Week Project</h3>
+                  <h3>Kicks</h3>
                 </header>
                 <p>
-                  My team consisted of Web UI, React, Back End, Machine
-                  Learning, and Data Science engineers. With such a diverse
-                  group of skillsets our goal is to create an application that
-                  would allow users to simply enter a topic they're interested
-                  in learning. We would then filter through the Youtube API for
-                  the most relevant videos, and provide the user with a playlist
-                  of videos conducive to learning more about the topic.
+                  UI model for an online sneaker store. Data pulled from The Sneaker API, a free resource created and maintained by TG4 Solutions.
+                  <ul style="text-align: left;">
+                    <li>Developed solely by me as a personal project to practice client side routing and state management</li>
+                    <li>Built with React, Hooks & Context API, React Router</li>
+                  </ul>
+                </p>
+              </section>
+            </div>
+            
+          <div class="row">
+            <div class="col-6 col-12-narrower">
+              <section id="User-Interface">
+                <a href="https://dungeon-of-the-haunted-forest.netlify.app/" class="image featured" target="_blank"><img
+                    src="images/haunted.png" alt="Dungeon of the Haunted Forest Website" /></a>
+                <header>
+                  <h3>Dungeon of the Haunted Forest</h3>
+                </header>
+                <p>
+                  A MUD game where users can sign up and fight their way through a spooky forest!
+                  <ul style="text-align: left;">
+                    <li>Using Depth First Search, developed an algorithm to generate a game map from a list of rooms</li>
+                    <li>Front end built with React, Context API, React Router. Backend is written in Python with Django</li>
+                  </ul>
                 </p>
               </section>
             </div>
             <div class="col-6 col-12-narrower">
               <section id="Rick-and-Morty">
-                <a
-                  href="https://rm-fanpage.now.sh/"
-                  class="image featured"
-                  target="_blank"
-                  ><img
-                    src="images/rick-and-morty.png"
-                    alt="Youtube U screenshot"
-                /></a>
+                <a href="https://rm-fanpage.now.sh/" class="image featured" target="_blank"><img style="max-height: 280px;" src="images/rick-and-morty.png"
+                    alt="Rick and Morty Project" /></a>
                 <header>
                   <h3>Rick and Morty API Project</h3>
                 </header>
                 <p>
-                  This is a project build in React in under 3 hours using the
-                  <a target="_blank" href="https://rickandmortyapi.com/"
-                    >Rick and Morty API</a
-                  >. With this project I learned how to use component libraries
-                  for React like Semantic UI as well as making asynchronous
-                  calls to an API and rendering data the application recieves as
-                  a response.
+                  A React Sprint Challenge done while attending Lambda School's curriculum for Full Stack Web Development.
+                  <ul style="text-align: left;">
+                    <li>Developed under 3 hours as a challenge to build and connect a client to a RESTful API</li>
+                    <li>Built with React, React Router & Semantic UI</li>
+                  </ul>
                 </p>
               </section>
-              https://anime-redux.now.sh/
             </div>
-          </div>
-          <div class="row">
+            </div>
+            </div>
+            
+          <!-- <div class="row">
             <div class="col-6 col-12-narrower">
               <section id="Anime-Redux">
                 <a
@@ -346,7 +299,31 @@
                 </p>
               </section>
             </div>
-          </div>
+            <div class="col-6 col-12-narrower">
+              <section id="Tipsease">
+                <a
+                  href="https://tipsease.now.sh/"
+                  class="image featured"
+                  target="_blank"
+                  ><img src="images/tipsease.png" alt="Tipsease"
+                /></a>
+                <header>
+                  <h3>Tipsease Build Week Project</h3>
+                </header>
+                <p>
+                  This project was built in React using Redux as the state
+                  management system. A backend API was built in Node.js to
+                  provide endpoints for the frontend to make GET and PUT
+                  requests to render a list of users and update user profiles
+                  respectively after a user has created a profile through the
+                  site's onboarding form. Once a profile is created, the user
+                  can successfully login, choose a service worker, and give them
+                  a tip. An account with a status of 'Service Worker' can login
+                  to see what tips they have recieved.
+                </p>
+              </section>
+            </div>
+          </div> -->
           <!-- <div class="row">
             <div class="col-6 col-12-narrower">
               <section>
@@ -382,11 +359,11 @@
             </div>
           </div> -->
 
-          <footer class="major">
+          <!-- <footer class="major">
             <ul class="buttons">
               <li><a href="#" class="button">See More</a></li>
             </ul>
-          </footer>
+          </footer> -->
         </section>
       </article>
 
@@ -418,11 +395,11 @@
               ><span class="label">Twitter</span></a
             >
           </li>
-          <li>
+          <!-- <li>
             <a href="#" class="icon brands circle fa-facebook-f"
               ><span class="label">Facebook</span></a
             >
-          </li>
+          </li> -->
           <li>
             <a
               href="mailto:christopher.bonifacio@gmail.com"
